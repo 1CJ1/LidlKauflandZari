@@ -17,8 +17,8 @@ public class Main {
 
         System.out.format("%n" + "Zadejte položky" + "%n");
 
-        long num = sc.nextLong();
-        String s = Long.toString(num);
+        
+        String s = sc.nextLine();
         int[] intArray = new int[s.length()];
         for (int i = 0; i < s.length(); i++) {
             intArray[i] = Character.getNumericValue(s.charAt(i));
